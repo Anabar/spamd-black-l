@@ -1,6 +1,6 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Wed, 15 Feb 2017 18:54:28 +0000
+# Date: Wed, 15 Feb 2017 22:13:23 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
@@ -9,60 +9,42 @@
 #  - count of attemts from IP into period (24h)
 #  - DNS name or '---'
 #
-   104.36.84.192   #   28     ---
-   104.36.84.193   #   14     ---
-   104.36.84.221   #   19     ---
-   104.36.84.222   #   15     ---
-   104.36.84.223   #   22     ---
-   104.36.84.225   #   26     ---
-   104.36.84.226   #   20     ---
-   104.36.84.227   #   30     ---
-   104.36.84.228   #   26     ---
-   104.36.84.229   #   28     ---
-   104.36.84.230   #   28     ---
-   104.36.84.231   #   30     ---
-   104.36.84.232   #   12     ---
-   104.36.84.233   #   26     ---
-   104.36.84.234   #   26     ---
-   104.36.84.235   #   20     ---
-   104.36.84.236   #   36     ---
-   104.36.84.237   #   12     ---
-   104.36.84.238   #   16     ---
-   104.36.84.239   #   22     ---
-   104.36.84.240   #   31     ---
-   104.36.84.241   #   20     ---
-  178.159.39.173   #   50     agotour.ru
-  178.159.42.104   #   53  2  coprinta.ru
-  178.159.42.105   #   54     fotoban.ru
-  185.154.15.209   #   56  2  so-sport.ru
- 188.138.127.156   #   42     mail.informazion.eu
-  188.138.79.182   #   42     mail.zeminationes.ru
- 195.123.211.106   #   31  2  vrnout.ru
- 195.123.211.153   #   51  2  tex-to.ru
- 195.123.211.159   #   16  2  s3000.ru
-  195.123.211.23   #   51  2  uralvep.ru
-  195.123.211.71   #   59  2  pmk6.ru
- 199.217.119.224   #   54     mail.whilsacom.eu
-    212.8.244.78   #   44     colexo.ru
-   212.8.245.226   #   70  2  a-zeon.ru
-      5.9.56.111   #    6     mail.asuduos.biz.ua
-   62.75.236.136   #   99     mail.airpotes.ru
-   62.75.236.138   #   89     mail.cooperhant.ru
-   62.75.236.150   #  103     mail.embarione.ru
-   62.75.236.204   #   31     mail.hebraica.eu
-   62.75.236.205   #   36     mail.intermagic.eu
-    80.86.87.181   #   18     mail.mideringes.eu
-    80.86.87.236   #   63     mail.informeste.ru
-    85.25.159.87   #    8     x3.regisinc.eu
-   85.25.226.162   #   17     mail.bookigemse.ru
-   85.25.226.204   #   34  2  mail.excluzivem.eu
-   85.25.226.216   #   38     mail.minderse.eu
-   85.25.243.123   #   74     mail.hooperise.eu
-    85.25.243.92   #   72     mail.filamest.eu
-    85.25.243.93   #   69  2  mail.golemint.eu
-    85.25.246.69   #   75     mail.daikinia.eu
-    85.25.246.71   #   70     mail.coolmasters.eu
-    85.25.246.83   #   68     mail.bilabonges.eu
-    85.25.246.85   #   55     mail.airmaxe.eu
-   91.247.220.32   #   10     keeprxolos.ru
-  93.170.253.127   #   46  2  o3tech.ru
+    162.254.85.3   #   18     accould.com
+  178.159.39.173   #   44     agotour.ru
+  178.159.42.104   #   18  2  coprinta.ru
+  178.159.42.105   #   38  2  fotoban.ru
+   178.159.42.55   #   14     mp3tut.ru
+  185.154.15.209   #   22  2  so-sport.ru
+ 188.138.127.156   #   20     mail.informazion.eu
+  188.138.79.182   #   99     mail.zeminationes.ru
+ 195.123.211.106   #   17     vrnout.ru
+ 195.123.211.153   #   46  2  tex-to.ru
+ 195.123.211.159   #   32  2  s3000.ru
+  195.123.211.23   #   14     uralvep.ru
+  195.123.211.71   #   41  2  pmk6.ru
+    212.8.244.78   #    8  2  colexo.ru
+   212.8.245.226   #   20     a-zeon.ru
+     46.4.115.74   #   20     x1.gopaperinc.eu
+   62.75.236.136   #  128     mail.airpotes.ru
+   62.75.236.138   #  136     mail.cooperhant.ru
+   62.75.236.150   #  132     mail.embarione.ru
+   62.75.236.204   #   46     mail.hebraica.eu
+   62.75.236.205   #   42     mail.intermagic.eu
+    80.86.87.181   #   33     mail.mideringes.eu
+    80.86.87.236   #   86     mail.informeste.ru
+    85.25.159.87   #   18     x3.regisinc.eu
+   85.25.226.162   #   99     mail.bookigemse.ru
+   85.25.226.204   #   10  2  mail.excluzivem.eu
+   85.25.226.216   #   52     mail.minderse.eu
+   85.25.243.123   #   54     mail.hooperise.eu
+    85.25.243.92   #   51     mail.filamest.eu
+    85.25.243.93   #   48  2  mail.golemint.eu
+    85.25.246.69   #   54     mail.daikinia.eu
+    85.25.246.71   #   58     mail.coolmasters.eu
+    85.25.246.83   #   59     mail.bilabonges.eu
+    85.25.246.85   #   56     mail.airmaxe.eu
+   91.247.220.33   #   14     lenortawer.ru
+   91.247.220.34   #    4     monderbixer.ru
+  93.170.253.127   #   22  2  o3tech.ru
+     94.74.81.33   #    8     ---
+     94.74.81.34   #   10     ---
