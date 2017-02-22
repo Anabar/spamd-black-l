@@ -1,6 +1,6 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Wed, 22 Feb 2017 18:03:46 +0000
+# Date: Wed, 22 Feb 2017 21:19:54 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
@@ -9,34 +9,43 @@
 #  - count of attemts from IP into period (24h)
 #  - DNS name or '---'
 #
-  178.159.39.173   #   29  2  agotour.ru
-  178.159.42.104   #   30  2  coprinta.ru
-  178.159.42.105   #   30  2  fotoban.ru
-  178.159.43.120   #   24  2  usa-info.ru
-  178.159.43.153   #   38     mgs1.ru
- 188.138.127.156   #   34     mail.informazion.eu
- 195.123.211.106   #   24  2  vrnout.ru
- 195.123.211.153   #   59  2  tex-to.ru
- 195.123.211.159   #   18  2  s3000.ru
- 199.217.119.224   #  106     mail.whilsacom.eu
+   104.36.84.195   #    6     ---
+   104.36.84.196   #    6     ---
+   104.36.84.200   #   10     ---
+   104.36.84.207   #    8     ---
+   104.36.84.216   #    8     ---
+   104.36.84.217   #    6     ---
+   104.36.84.218   #    6     ---
+   104.36.84.230   #    6     ---
+   104.36.84.231   #    4     ---
+   104.36.84.232   #    4     ---
+   104.36.84.233   #    6     ---
+   104.36.84.234   #    2     ---
+  178.159.39.173   #   40     agotour.ru
+  178.159.42.104   #   28     coprinta.ru
+  178.159.42.105   #   28  2  fotoban.ru
+   178.159.42.55   #   38  2  mp3tut.ru
+  178.159.43.120   #   38  2  usa-info.ru
+  178.159.43.153   #   46  2  mgs1.ru
+ 188.138.127.156   #   46     mail.informazion.eu
+ 195.123.211.153   #   28  2  tex-to.ru
+ 195.123.211.159   #   37  2  s3000.ru
     212.8.244.78   #   36  2  colexo.ru
-   46.21.250.102   #   32  2  erstum.ru
-    46.21.250.72   #   28  2  allexa.ru
-   62.75.236.138   #   48     mail.cooperhant.ru
-   62.75.236.150   #  116     mail.embarione.ru
-   62.75.236.204   #   34     mail.hebraica.eu
-   62.75.236.205   #   34     mail.intermagic.eu
-   62.75.236.206   #   20     mail.whilsacom.eu
-    80.86.87.181   #   19     mail.mideringes.eu
-   85.25.226.162   #   28     mail.bookigemse.ru
-   85.25.226.204   #   32     mail.excluzivem.eu
-   85.25.226.216   #   28     mail.minderse.eu
-   85.25.243.123   #   71     mail.hooperise.eu
-    85.25.243.92   #   50     mail.filamest.eu
-    85.25.243.93   #   72     mail.golemint.eu
-    85.25.246.69   #   61     mail.daikinia.eu
-    85.25.246.71   #   56     mail.coolmasters.eu
-    85.25.246.83   #   55     mail.bilabonges.eu
-    85.25.246.85   #   73     mail.airmaxe.eu
-  91.239.215.120   #   28     yjesionfarell.ru
-  93.170.253.127   #   40  2  o3tech.ru
+   46.21.250.102   #   30  2  erstum.ru
+    46.21.250.72   #    4     allexa.ru
+   62.75.236.138   #  110     mail.cooperhant.ru
+   62.75.236.204   #   48     mail.hebraica.eu
+   62.75.236.205   #   60     mail.intermagic.eu
+   62.75.236.206   #   68     mail.whilsacom.eu
+    80.86.87.181   #   50     mail.mideringes.eu
+   85.25.226.204   #   46     mail.excluzivem.eu
+   85.25.226.216   #   68     mail.minderse.eu
+   85.25.243.123   #   57     mail.hooperise.eu
+    85.25.243.92   #   70     mail.filamest.eu
+    85.25.243.93   #   66     mail.golemint.eu
+    85.25.246.69   #   49     mail.daikinia.eu
+    85.25.246.71   #   72     mail.coolmasters.eu
+    85.25.246.83   #   76     mail.bilabonges.eu
+    85.25.246.85   #   59     mail.airmaxe.eu
+  91.239.215.120   #   10     yjesionfarell.ru
+  93.170.253.127   #   30  2  o3tech.ru
