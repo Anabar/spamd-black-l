@@ -1,6 +1,6 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Tue, 25 Apr 2017 11:24:14 +0000
+# Date: Tue, 25 Apr 2017 11:36:12 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
@@ -9,12 +9,12 @@
 #  - count of attemts from IP into period (36h)
 #  - DNS name or '---'
 #
-  178.159.42.225   #  215     ntcsn.ru
+  178.159.42.225   #  217     ntcsn.ru
   178.159.42.226   #  160     zaoumk.ru
   178.159.43.206   #   78     voclub.ru
-  178.159.43.209   #   61     b2b-fuel.ru
+  178.159.43.209   #   63     b2b-fuel.ru
    185.154.15.28   #  148     logyka.ru
-   185.154.15.88   #  102     odinhost.ru
+   185.154.15.88   #  106     odinhost.ru
    185.51.247.36   #  154     aqua-tk.ru
  188.138.127.156   #   68     mail.informazion.eu
   188.138.79.182   #   22     mail.zeminationes.ru
@@ -22,14 +22,14 @@
   194.67.222.171   #   20     ih499026.dedic.myihor.ru
   194.67.222.182   #   30     ih499026.dedic.myihor.ru
  195.123.211.159   #  230     kt-net.ru
- 195.123.211.161   #  159     tarko-selo.ru
+ 195.123.211.161   #  161     tarko-selo.ru
   212.86.102.170   #  136     eatonway.ru
    212.86.115.67   #   40     waterday.ru
    62.75.236.136   #   16     mail.airpotes.ru
-   62.75.236.138   #   18     mail.cooperhant.ru
+   62.75.236.138   #   20     mail.cooperhant.ru
    62.75.236.150   #   18     mail.embarione.ru
    62.75.236.204   #   74     mail.hebraica.eu
-   62.75.236.205   #   73     mail.intermagic.eu
+   62.75.236.205   #   74     mail.intermagic.eu
    62.75.236.206   #   68     mail.whilsacom.eu
    66.23.212.128   #   11     ---
    66.23.212.130   #   23     wrong.jehoriz.us
@@ -48,11 +48,11 @@
     80.86.87.181   #   50     mail.mideringes.eu
     80.86.87.236   #   80     mail.informeste.ru
    85.25.226.162   #   56     mail.bookigemse.ru
-   85.25.226.204   #   56     mail.excluzivem.eu
-   85.25.226.216   #   79     mail.minderse.eu
+   85.25.226.204   #   58     mail.excluzivem.eu
+   85.25.226.216   #   80     mail.minderse.eu
    85.25.243.123   #   66     mail.hooperise.eu
     85.25.243.92   #   50     mail.filamest.eu
-    85.25.243.93   #   78     mail.golemint.eu
+    85.25.243.93   #   80     mail.golemint.eu
     85.25.246.69   #   56     mail.daikinia.eu
     85.25.246.71   #   22     mail.coolmasters.eu
     85.25.246.83   #   72     mail.bilabonges.eu
