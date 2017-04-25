@@ -1,45 +1,59 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Tue, 25 Apr 2017 07:18:46 +0000
+# Date: Tue, 25 Apr 2017 09:29:58 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
 #    if empty (implied 1): IP was detected only in anabar's BL
 #    if >=2: IP was detected in other BL (nixspam, bsdly, etc.) 
-#  - count of attemts from IP into period (24h)
+#  - count of attemts from IP into period (36h)
 #  - DNS name or '---'
 #
-  178.159.42.225   #   65     ntcsn.ru
-  178.159.42.226   #  103     zaoumk.ru
-   185.154.15.28   #   24     logyka.ru
-   185.154.15.88   #   12     odinhost.ru
-   185.51.247.36   #   78     aqua-tk.ru
- 188.138.127.156   #    8     mail.informazion.eu
-  188.138.79.182   #   12     mail.zeminationes.ru
+  178.159.42.225   #  200     ntcsn.ru
+  178.159.42.226   #  160     zaoumk.ru
+  178.159.43.206   #   78     voclub.ru
+  178.159.43.209   #   25     b2b-fuel.ru
+   185.154.15.28   #  146     logyka.ru
+   185.154.15.88   #   47     odinhost.ru
+   185.51.247.36   #  154     aqua-tk.ru
+ 188.138.127.156   #   62     mail.informazion.eu
+  188.138.79.182   #   14     mail.zeminationes.ru
   194.67.222.167   #   12     ih499026.dedic.myihor.ru
-  194.67.222.171   #    7     ih499026.dedic.myihor.ru
-  194.67.222.182   #    9     ih499026.dedic.myihor.ru
- 195.123.211.159   #   67     kt-net.ru
- 195.123.211.161   #   19     tarko-selo.ru
-  212.86.102.170   #   92     eatonway.ru
-   62.75.236.136   #    8     mail.airpotes.ru
-   62.75.236.138   #   10     mail.cooperhant.ru
-   62.75.236.150   #   10     mail.embarione.ru
-   62.75.236.204   #   10     mail.hebraica.eu
-   62.75.236.205   #    6     mail.intermagic.eu
-   62.75.236.206   #    8     mail.whilsacom.eu
+  194.67.222.171   #   20     ih499026.dedic.myihor.ru
+  194.67.222.182   #   30     ih499026.dedic.myihor.ru
+ 195.123.211.159   #  210     kt-net.ru
+ 195.123.211.161   #  123     tarko-selo.ru
+  212.86.102.170   #  136     eatonway.ru
+   212.86.115.67   #   40     waterday.ru
+   62.75.236.136   #   14     mail.airpotes.ru
+   62.75.236.138   #   16     mail.cooperhant.ru
+   62.75.236.150   #   14     mail.embarione.ru
+   62.75.236.204   #   64     mail.hebraica.eu
+   62.75.236.205   #   66     mail.intermagic.eu
+   62.75.236.206   #   66     mail.whilsacom.eu
+   66.23.212.128   #   11     ---
+   66.23.212.130   #   23     wrong.jehoriz.us
+   66.23.212.131   #   14     elbow.spienko.us
+   66.23.212.132   #   56     stain.shaerdi.us
+   66.23.212.134   #   30     greatest.dozedrs.us
+   66.23.212.135   #   30     disgust.onneuropathycurepain.us
+   66.23.212.136   #   24     jake.metamug.us
+   66.23.212.138   #   18     shone.touchrs.us
+   66.23.212.139   #   18     grief.naminen.us
+   66.23.212.140   #   20     simon.duearah.us
+   66.23.212.141   #   20     rebate.rabisic.us
    66.23.212.143   #   16     ratty.lademix.us
    66.23.212.149   #   26     warm.nemiges.us
    66.23.212.154   #    8     jericho.vagetea.us
-    80.86.87.181   #   11     mail.mideringes.eu
-    80.86.87.236   #    8     mail.informeste.ru
-   85.25.226.162   #   10     mail.bookigemse.ru
-   85.25.226.204   #    6     mail.excluzivem.eu
-   85.25.226.216   #    9     mail.minderse.eu
-   85.25.243.123   #   10     mail.hooperise.eu
-    85.25.243.92   #    8     mail.filamest.eu
-    85.25.243.93   #   11     mail.golemint.eu
-    85.25.246.69   #   10     mail.daikinia.eu
-    85.25.246.71   #   12     mail.coolmasters.eu
-    85.25.246.83   #   12     mail.bilabonges.eu
-    85.25.246.85   #   10     mail.airmaxe.eu
+    80.86.87.181   #   49     mail.mideringes.eu
+    80.86.87.236   #   76     mail.informeste.ru
+   85.25.226.162   #   54     mail.bookigemse.ru
+   85.25.226.204   #   53     mail.excluzivem.eu
+   85.25.226.216   #   72     mail.minderse.eu
+   85.25.243.123   #   64     mail.hooperise.eu
+    85.25.243.92   #   46     mail.filamest.eu
+    85.25.243.93   #   74     mail.golemint.eu
+    85.25.246.69   #   50     mail.daikinia.eu
+    85.25.246.71   #   18     mail.coolmasters.eu
+    85.25.246.83   #   66     mail.bilabonges.eu
+    85.25.246.85   #   66     mail.airmaxe.eu
