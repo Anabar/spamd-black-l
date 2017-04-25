@@ -1,6 +1,6 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Mon, 24 Apr 2017 07:15:27 +0000
+# Date: Tue, 25 Apr 2017 07:18:46 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
@@ -9,26 +9,37 @@
 #  - count of attemts from IP into period (24h)
 #  - DNS name or '---'
 #
-  178.159.42.225   #   40     ntcsn.ru
- 188.138.127.156   #   14     mail.informazion.eu
-   62.75.236.204   #   14     mail.hebraica.eu
-   62.75.236.205   #   16     mail.intermagic.eu
-   62.75.236.206   #   20     mail.whilsacom.eu
-   66.23.212.128   #   11     ---
-   66.23.212.130   #   23     wrong.jehoriz.us
-   66.23.212.131   #   14     elbow.spienko.us
-   66.23.212.132   #   56     stain.shaerdi.us
-   66.23.212.134   #   30     greatest.dozedrs.us
-   66.23.212.135   #   30     disgust.onneuropathycurepain.us
-   66.23.212.136   #   24     jake.metamug.us
-    80.86.87.181   #   10     mail.mideringes.eu
-    80.86.87.236   #   22     mail.informeste.ru
-   85.25.226.162   #    8     mail.bookigemse.ru
-   85.25.226.204   #    8     mail.excluzivem.eu
-   85.25.226.216   #   16     mail.minderse.eu
-   85.25.243.123   #   12     mail.hooperise.eu
-    85.25.243.92   #   10     mail.filamest.eu
-    85.25.243.93   #   14     mail.golemint.eu
-    85.25.246.69   #   12     mail.daikinia.eu
+  178.159.42.225   #   65     ntcsn.ru
+  178.159.42.226   #  103     zaoumk.ru
+   185.154.15.28   #   24     logyka.ru
+   185.154.15.88   #   12     odinhost.ru
+   185.51.247.36   #   78     aqua-tk.ru
+ 188.138.127.156   #    8     mail.informazion.eu
+  188.138.79.182   #   12     mail.zeminationes.ru
+  194.67.222.167   #   12     ih499026.dedic.myihor.ru
+  194.67.222.171   #    7     ih499026.dedic.myihor.ru
+  194.67.222.182   #    9     ih499026.dedic.myihor.ru
+ 195.123.211.159   #   67     kt-net.ru
+ 195.123.211.161   #   19     tarko-selo.ru
+  212.86.102.170   #   92     eatonway.ru
+   62.75.236.136   #    8     mail.airpotes.ru
+   62.75.236.138   #   10     mail.cooperhant.ru
+   62.75.236.150   #   10     mail.embarione.ru
+   62.75.236.204   #   10     mail.hebraica.eu
+   62.75.236.205   #    6     mail.intermagic.eu
+   62.75.236.206   #    8     mail.whilsacom.eu
+   66.23.212.143   #   16     ratty.lademix.us
+   66.23.212.149   #   26     warm.nemiges.us
+   66.23.212.154   #    8     jericho.vagetea.us
+    80.86.87.181   #   11     mail.mideringes.eu
+    80.86.87.236   #    8     mail.informeste.ru
+   85.25.226.162   #   10     mail.bookigemse.ru
+   85.25.226.204   #    6     mail.excluzivem.eu
+   85.25.226.216   #    9     mail.minderse.eu
+   85.25.243.123   #   10     mail.hooperise.eu
+    85.25.243.92   #    8     mail.filamest.eu
+    85.25.243.93   #   11     mail.golemint.eu
+    85.25.246.69   #   10     mail.daikinia.eu
+    85.25.246.71   #   12     mail.coolmasters.eu
     85.25.246.83   #   12     mail.bilabonges.eu
-    85.25.246.85   #   14     mail.airmaxe.eu
+    85.25.246.85   #   10     mail.airmaxe.eu
