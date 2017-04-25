@@ -6,7 +6,7 @@ You can use actual version of this list from http://spamd.vasily.me/anabarblack.
 
 
 ## file struture
-<pre>
+`
 # anabar blacklist for using into spamd.conf (OpenBSD spamd)
 #
 # Date: Tue, 25 Apr 2017 11:00:11 +0000
@@ -15,10 +15,11 @@ You can use actual version of this list from http://spamd.vasily.me/anabarblack.
 #   b. count of attemts from IP into period (36h)
 #   c. amount of blacklist, where IP was detected
 #        if empty (implied 1): IP was detected only in anabar's BL
-#        if >=2: IP was detected in other BL ([nixspam](http://www.heise.de/ix/nixspam/dnsbl_en/),  [bsdly](http://www.bsdly.net/~peter/nameandshame.html), etc.) 
+#        if >=2: IP was detected in other BL ([nixspam](http://www.heise.de/ix/nixspam/dnsbl_en/),  
+#                                             [bsdly](http://www.bsdly.net/~peter/nameandshame.html), etc.) 
 #   d. DNS name or '---'
 
-<b>a</b>                     <b>b</b>    <b>c</b>  <b>d</b>
+  <b>a</b>                   <b>b</b>    <b>c</b>  <b>d</b>
   ....................................................
   178.159.42.225   #  210     ntcsn.ru
   178.159.42.226   #  160     zaoumk.ru
@@ -36,7 +37,7 @@ You can use actual version of this list from http://spamd.vasily.me/anabarblack.
     85.25.243.92   #   50     mail.filamest.eu
     85.25.243.93   #   77     mail.golemint.eu
   ....................................................
-</pre>
+`
 
 
 To use this blacklist just add below strings into your `spamd.conf` (usually `/etc/mail/spamd.conf`) and restart spamd (`rcctl restart spamd`)
