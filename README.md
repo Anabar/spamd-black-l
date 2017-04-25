@@ -5,7 +5,7 @@ You can use actual version of this blacklist from http://spamd.vasily.me/anabarb
 <br>File is being renewed every 12 minutes.
 
 
-## file struture
+## File structure
 <pre>
 # anabar blacklist for using into spamd.conf (OpenBSD spamd)
 #
@@ -38,7 +38,7 @@ You can use actual version of this blacklist from http://spamd.vasily.me/anabarb
   ....................................................
 </pre>
 
-
+## Using
 To use this blacklist just add below strings into your `spamd.conf` (usually `/etc/mail/spamd.conf`) and restart [spamd](http://man.openbsd.org/spamd) 
 (`rcctl restart spamd`)
 <pre>
