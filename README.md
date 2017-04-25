@@ -1,25 +1,25 @@
 # spamd-black-l
-Actual blacklist for OpenBSD spamd.conf
+Actual blacklist for `OpenBSD` `spamd.conf`
 
-You can use actual version of this list from *http://spamd.vasily.me/anabarblack.gz*
+You can use actual version of this list from http://spamd.vasily.me/anabarblack.gz
 <br>File is renewing every 12 minutes.
 
 
 ## file struture
 <pre>
-# anabar black list for using into spamd.conf (OpenBSD spamd)
+# anabar blacklist for using into spamd.conf (OpenBSD spamd)
 #
 # Date: Tue, 25 Apr 2017 11:00:11 +0000
-Fields: 
-  a. IP
-  b. count of attemts from IP into period (36h)
-  c. amount of blacklist, where IP was detected
-    if empty (implied 1): IP was detected only in anabar's BL
-    if >=2: IP was detected in other BL (nixspam, bsdly, etc.) 
-  d. DNS name or '---'
+# Fields (b, c, d are in comments): 
+#   a. IP
+#   b. count of attemts from IP into period (36h)
+#   c. amount of blacklist, where IP was detected
+#        if empty (implied 1): IP was detected only in anabar's BL
+#        if >=2: IP was detected in other BL ([nixspam](http://www.heise.de/ix/nixspam/dnsbl_en/),  [bsdly](http://www.bsdly.net/~peter/nameandshame.html), etc.) 
+#   d. DNS name or '---'
 
-
-**a**                     **b**    **c**  **d**
+<b>a</b>                     <b>b</b>    <b>c</b>  <b>d</b>
+  ....................................................
   178.159.42.225   #  210     ntcsn.ru
   178.159.42.226   #  160     zaoumk.ru
    62.75.236.204   #   72     mail.hebraica.eu
@@ -35,8 +35,8 @@ Fields:
    85.25.243.123   #   66  2  mail.hooperise.eu
     85.25.243.92   #   50     mail.filamest.eu
     85.25.243.93   #   77     mail.golemint.eu
+  ....................................................
 </pre>
-
 
 
 To use this blacklist just add below strings into your `spamd.conf` (usually `/etc/mail/spamd.conf`) and restart spamd (`rcctl restart spamd`)
