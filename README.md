@@ -1,8 +1,8 @@
 # spamd-black-l
 Actual blacklist for [OpenBSD](http://www.openbsd.org) [spamd.conf](http://man.openbsd.org/spamd.conf)
 
-You can use actual version of this list from http://spamd.vasily.me/anabarblack.gz
-<br>File is renewing every 12 minutes.
+You can use actual version of this blacklist from http://spamd.vasily.me/anabarblack.gz
+<br>File is being renewed every 12 minutes.
 
 
 ## file struture
@@ -49,6 +49,6 @@ anabarblack:\
          :file=spamd.vasily.me/anabarblack.gz:
 </pre>
 
-The file `anabarblack.list` in repository is only example and is not renewing regular.
+The file `anabarblack.list` in repository is only example and is not being renewed regular.
 
 
