@@ -1,5 +1,5 @@
 # spamd-black-l
-Actual blacklist for `OpenBSD` `spamd.conf`
+Actual blacklist for [OpenBSD](http://www.openbsd.org) [spamd.conf](http://man.openbsd.org/spamd.conf)
 
 You can use actual version of this list from http://spamd.vasily.me/anabarblack.gz
 <br>File is renewing every 12 minutes.
@@ -39,7 +39,8 @@ You can use actual version of this list from http://spamd.vasily.me/anabarblack.
 </pre>
 
 
-To use this blacklist just add below strings into your `spamd.conf` (usually `/etc/mail/spamd.conf`) and restart spamd (`rcctl restart spamd`)
+To use this blacklist just add below strings into your `spamd.conf` (usually `/etc/mail/spamd.conf`) and restart [spamd](http://man.openbsd.org/spamd) 
+(`rcctl restart spamd`)
 <pre>
 anabarblack:\
          :black:\
