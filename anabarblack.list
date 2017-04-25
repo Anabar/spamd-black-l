@@ -1,6 +1,6 @@
 # anabar black list for using into spamd.conf (OpenBSD spamd)
 #
-# Date: Wed, 22 Feb 2017 21:19:54 +0000
+# Date: Mon, 24 Apr 2017 07:15:27 +0000
 # Fields:
 #  - IP
 #  - amount of blacklist, where IP was detected
@@ -9,43 +9,26 @@
 #  - count of attemts from IP into period (24h)
 #  - DNS name or '---'
 #
-   104.36.84.195   #    6     ---
-   104.36.84.196   #    6     ---
-   104.36.84.200   #   10     ---
-   104.36.84.207   #    8     ---
-   104.36.84.216   #    8     ---
-   104.36.84.217   #    6     ---
-   104.36.84.218   #    6     ---
-   104.36.84.230   #    6     ---
-   104.36.84.231   #    4     ---
-   104.36.84.232   #    4     ---
-   104.36.84.233   #    6     ---
-   104.36.84.234   #    2     ---
-  178.159.39.173   #   40     agotour.ru
-  178.159.42.104   #   28     coprinta.ru
-  178.159.42.105   #   28  2  fotoban.ru
-   178.159.42.55   #   38  2  mp3tut.ru
-  178.159.43.120   #   38  2  usa-info.ru
-  178.159.43.153   #   46  2  mgs1.ru
- 188.138.127.156   #   46     mail.informazion.eu
- 195.123.211.153   #   28  2  tex-to.ru
- 195.123.211.159   #   37  2  s3000.ru
-    212.8.244.78   #   36  2  colexo.ru
-   46.21.250.102   #   30  2  erstum.ru
-    46.21.250.72   #    4     allexa.ru
-   62.75.236.138   #  110     mail.cooperhant.ru
-   62.75.236.204   #   48     mail.hebraica.eu
-   62.75.236.205   #   60     mail.intermagic.eu
-   62.75.236.206   #   68     mail.whilsacom.eu
-    80.86.87.181   #   50     mail.mideringes.eu
-   85.25.226.204   #   46     mail.excluzivem.eu
-   85.25.226.216   #   68     mail.minderse.eu
-   85.25.243.123   #   57     mail.hooperise.eu
-    85.25.243.92   #   70     mail.filamest.eu
-    85.25.243.93   #   66     mail.golemint.eu
-    85.25.246.69   #   49     mail.daikinia.eu
-    85.25.246.71   #   72     mail.coolmasters.eu
-    85.25.246.83   #   76     mail.bilabonges.eu
-    85.25.246.85   #   59     mail.airmaxe.eu
-  91.239.215.120   #   10     yjesionfarell.ru
-  93.170.253.127   #   30  2  o3tech.ru
+  178.159.42.225   #   40     ntcsn.ru
+ 188.138.127.156   #   14     mail.informazion.eu
+   62.75.236.204   #   14     mail.hebraica.eu
+   62.75.236.205   #   16     mail.intermagic.eu
+   62.75.236.206   #   20     mail.whilsacom.eu
+   66.23.212.128   #   11     ---
+   66.23.212.130   #   23     wrong.jehoriz.us
+   66.23.212.131   #   14     elbow.spienko.us
+   66.23.212.132   #   56     stain.shaerdi.us
+   66.23.212.134   #   30     greatest.dozedrs.us
+   66.23.212.135   #   30     disgust.onneuropathycurepain.us
+   66.23.212.136   #   24     jake.metamug.us
+    80.86.87.181   #   10     mail.mideringes.eu
+    80.86.87.236   #   22     mail.informeste.ru
+   85.25.226.162   #    8     mail.bookigemse.ru
+   85.25.226.204   #    8     mail.excluzivem.eu
+   85.25.226.216   #   16     mail.minderse.eu
+   85.25.243.123   #   12     mail.hooperise.eu
+    85.25.243.92   #   10     mail.filamest.eu
+    85.25.243.93   #   14     mail.golemint.eu
+    85.25.246.69   #   12     mail.daikinia.eu
+    85.25.246.83   #   12     mail.bilabonges.eu
+    85.25.246.85   #   14     mail.airmaxe.eu
